@@ -1,0 +1,104 @@
+
+/* button*/
+
+   #circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 30px;
+      background-image: url('../img/seamless.png'); 
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Open Sans Condensed', sans-serif;
+      position: absolute;
+      margin-left: 525px;
+      margin-top: 30px;
+    }
+
+    h6 {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+
+/* bottom*/
+
+.bottom {
+    background-color: black;
+    color: white;
+    height: 180px;
+    padding-top: 50px;
+    font-family: auto;
+    margin-top: 55px;
+    text-align: justify;
+    text-align-last: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+    
+}
+
+.middle {
+text-align: left;
+    width: 50px;
+    margin-left: -367px;
+    margin-top: 27px;
+    margin-bottom: 66px;
+    display: inline-block;
+    position: absolute;
+    text-transform: uppercase;
+
+}
+
+.location {
+    text-align: center;
+    width: 200px;
+    margin-left: -74px;
+    margin-top: 27px;
+    margin-bottom: 66px;
+    display: inline-block;
+    text-transform: uppercase;
+   
+}
+.times {
+    text-align: center;
+    width: 298px;
+    margin: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+     
+}
+
+.logo {
+    text-align: center;
+    width: 281px;
+    display: inline-block;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 50px;
+    color: white;
+    margin-top: 37px;
+    position: absolute;
+    margin-left: -26px;
+
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+        text-align: justify;
+    text-align-last: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.a_ {
+    color: white;
+}
+
+.a_:hover {
+    color: #778899; 
+    font-weight: bold;
+}

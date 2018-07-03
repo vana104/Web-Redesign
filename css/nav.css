@@ -1,0 +1,89 @@
+/*navigation*/
+
+
+nav {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: absolute;
+    background-color: black;
+    text-transform: uppercase;
+    padding-left: 49px;
+    padding-right: 91px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+nav ul {
+    text-align: center;
+    display: inline;
+    margin: 213px;
+    padding: 15px 4px 17px 0;
+    list-style: none;
+
+}
+nav ul li {
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 14px 20px;
+    cursor: pointer;
+    -webkit-transition: all 5s;
+    -ms-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+nav a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+\}
+
+nav a {
+    color: #fff;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #778899;
+}
+/* dropdown*/
+
+nav ul li ul {
+    padding: 0;
+    position: absolute;
+    top: -169px;
+    left: 0;
+    width: 150px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    margin-left: -30px
+
+}
+
+nav ul li ul li {
+    background: black;
+    display: block;
+    color: #fff;
+}
+
+nav ul li ul li:hover {
+    }
+
+nav ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
